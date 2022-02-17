@@ -23,6 +23,11 @@ Secondary.args = {
   label: 'Button',
 };
 
+export const SomeOther = Template.bind({});
+SomeOther.args = {
+  label: 'Test Button',
+};
+
 export const Large = Template.bind({});
 Large.args = {
   size: 'large',
