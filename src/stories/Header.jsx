@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Button } from './Button';
 import './header.css';
-
+// some comment
 export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <header>
     <div className="wrapper">
